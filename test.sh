@@ -1,9 +1,11 @@
-#!/usr/bin/env ash
+#!/usr/bin/env sh
 
 apk update; apk add curl
 
 curl -fsSL https://goss.rocks/install | sh
 
-xelatex /latex/doc.tex -output-directory=/latex/output
 
-cd /latex && goss validate
+cd /latex/output && \
+  xelatex /latex/doc.tex && \
+  cd /latex && \
+  goss validate

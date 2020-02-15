@@ -2,7 +2,6 @@ file:
   /latex/output/doc.pdf:
     exists: true
     mode: "0644"
-    size: 21989
     filetype: file
     contains: []
   /usr/bin/lualatex:
