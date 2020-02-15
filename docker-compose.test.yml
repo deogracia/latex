@@ -7,5 +7,5 @@ services:
     command: test.sh
     volumes:
       - ./test.sh:/usr/local/bin/test.sh
-      - ./goss.yml:/root/goss.yml
+      - ./:/latex
 

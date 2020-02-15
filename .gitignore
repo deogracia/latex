@@ -1,2 +1,5 @@
 !/ouput/.gitkeep
 /output/
+*.aux
+*.log
+*.pdf
