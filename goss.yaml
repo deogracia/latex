@@ -1,0 +1,38 @@
+file:
+  /latex/output/doc.pdf:
+    exists: true
+    mode: "0644"
+    filetype: file
+    contains: []
+  /usr/bin/lualatex:
+    exists: true
+    mode: "0777"
+    size: 6
+    owner: root
+    group: root
+    linked-to: luatex
+    filetype: symlink
+    contains: []
+  /usr/bin/pdflatex:
+    exists: true
+    mode: "0777"
+    size: 6
+    owner: root
+    group: root
+    linked-to: pdftex
+    filetype: symlink
+    contains: []
+  /usr/bin/xelatex:
+    exists: true
+    mode: "0777"
+    size: 5
+    owner: root
+    group: root
+    linked-to: xetex
+    filetype: symlink
+    contains: []
+package:
+  texlive-full:
+    installed: true
+    versions:
+    - 20190410-r6
