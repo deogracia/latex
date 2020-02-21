@@ -3,6 +3,8 @@ my LaTeX docker image
 
 Use it to create your document from LaTeX
 
+It includes the full texlive package.
+
 # Usage
 
 Use the Github docker repo:
