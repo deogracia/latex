@@ -1,4 +1,6 @@
 # latex
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdeogracia%2Flatex.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdeogracia%2Flatex?ref=badge_shield)
+
 my LaTeX docker image
 
 Use it to create your document from LaTeX
@@ -16,3 +18,7 @@ Or use the docker hub
 ```
 docker run -v "$(pwd)/:/latex" --user "$(id -u):$(id -g)" deogracia/latex xelatex /latex/doc.tex
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdeogracia%2Flatex.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdeogracia%2Flatex?ref=badge_large)
