@@ -36,4 +36,12 @@ package:
   texlive-full:
     installed: true
     versions:
-    - 20190410-r6
+      - 20190410-r6
+  imagemagick:
+    installed: true
+    versions:
+      - 7.0.9.7-r0
+  ghostscript:
+    installed: true
+    versions:
+      - 9.50-r0
